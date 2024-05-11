@@ -1,0 +1,43 @@
+#footer {
+    .family {
+        position: absolute;
+        right: 0;
+        top: 140px;
+        .title {
+            margin-top: 0;
+            margin-bottom: 0;
+            a {
+                display: block;
+                width: 210px;
+                height: 45px;
+                border: 1px solid #dcdcdc;
+                line-height: 45px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                &::after {
+                    content: '\e930';
+                    font-family: xeicon !important;
+                    margin-left: 40px;
+                }
+            }
+        }
+        ul {
+            position: absolute;
+            left: 0;
+            top: 55px;
+            display: none;
+            li {
+                a {
+                    display: block;
+                    width: 210px;
+                    height: 45px;
+                    border: 1px solid #dcdcdc;
+                    line-height: 45px;
+                    padding: 0 10px;
+                    box-sizing: border-box;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}

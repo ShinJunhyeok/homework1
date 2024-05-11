@@ -1,0 +1,64 @@
+#visual {
+    height: 720px;
+    position: relative;
+    .btn-wrap {
+        .btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 70px;
+            height: 70px;
+            background: transparent;
+            color: #fff;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            cursor: pointer;
+            i {
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+        .prev {
+            left: 50px;
+        }
+        .next {
+            right: 50px;
+        }
+    }
+    .paging {
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 150px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.2);
+            margin-right: 15px;
+            border: 1px solid #fff;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 10px;
+            }
+        }
+        li.on {
+            background: #fff;
+        }
+    }
+    .play {
+        position: absolute;
+        left: 995px;
+        bottom: -1px;
+        font-size: 47px;
+        color: #fff;
+        cursor: pointer;
+    }
+}

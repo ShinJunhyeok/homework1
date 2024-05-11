@@ -1,0 +1,18 @@
+.main {
+    .con1 {
+        background: #efefef;
+        .inner {
+            padding: 0;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                display: flex;
+                dl {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

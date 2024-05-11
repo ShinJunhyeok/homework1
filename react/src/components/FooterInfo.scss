@@ -1,0 +1,23 @@
+#footer {
+    p {
+        span {
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 1px;
+                height: 12px;
+                background: #dcdcdc;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            &:last-child {
+                &::after {
+                    content: none;
+                }
+            }
+        }
+        &:last-of-type {
+            margin-top: 30px;
+        }
+    }
+}

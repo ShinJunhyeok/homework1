@@ -1,0 +1,16 @@
+#footer {
+    p {
+        &:first-child {
+            margin-bottom: 30px;
+        }
+        &:nth-of-type(1) {
+            margin-bottom: 60px;
+            a {
+                margin-right: 15px;
+                &:nth-child(4) {
+                    color: red;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,698 @@
+#footer {
+    background: #fff;
+    border-top: 2px solid #dcdcdc;
+}
+#footer .inner {
+}
+#footer .inner::after {
+}
+
+#footer .family {
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+#footer .family .title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#footer .family .title a {
+    display: block;
+    width: 210px;
+    height: 45px;
+    border: 1px solid #dcdcdc;
+    line-height: 45px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#footer .family .title a::after {
+    content: '\e930';
+    font-family: xeicon !important;
+    margin-left: 40px;
+}
+#footer .family ul {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    display: none;
+}
+#footer .family ul li {
+}
+#footer .family ul li a {
+    display: block;
+    width: 210px;
+    height: 45px;
+    border: 1px solid #dcdcdc;
+    line-height: 45px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+/* 서브페이지 공통 */
+#subMenuBar {
+    width: 100%;
+}
+#subMenuBar .inner {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#subMenuBar .sub-menu {
+    display: flex;
+}
+#subMenuBar .sub-menu li {
+    margin-left: 20px;
+}
+#subMenuBar .sub-menu li a {
+}
+#subMenuBar .sub-menu li:first-child a i {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+#subMenuBar .sub-menu li:first-child a i::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: #999;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#subMenuBar .sub-menu li a span {
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    text-align: center;
+}
+/* i가 들어간 행간을 맞출 경우에는 반드시 i에 행간처리 */
+#subMenuBar .sub-menu li a span i {
+    line-height: 30px;
+}
+
+/* before/after 사용시 */
+/* #subMenuBar .sub-menu li:not(:first-child) a {
+      font-size: 20px; 
+      display: block;
+      padding-right: 50px;
+      position: relative;
+  }
+  #subMenuBar .sub-menu li:not(:first-child) a::after{
+      content: "";
+  } */
+
+#subMenuBar .sns {
+    display: flex;
+}
+#subMenuBar .sns li {
+    margin-right: 20px;
+}
+#subMenuBar .sns li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    text-align: center;
+}
+#subMenuBar .sns li a i {
+    font-size: 22px;
+    line-height: 50px;
+}
+
+#subMenuBar .sns li:first-child:hover a {
+    background: #000;
+    color: #fff;
+}
+
+/* 서브페이지 공통 */
+.con-top {
+}
+.con-top .inner {
+    padding-bottom: 70px;
+}
+.con-top h2 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+.con-top p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.con-top.content-top {
+}
+.con-top.content-top p strong {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+.con-top.content-top p span {
+}
+
+/* index */
+
+#visual {
+    height: 720px;
+    position: relative;
+}
+#visual .main-banner {
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+/* #visual .main-banner li {
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    left: -9999px;
+    top: 0;
+  } */
+
+/* #visual .main-banner li:nth-child(1) {
+    background-image: url(../images/vis1.jpg);
+    left: 0;
+  }
+  #visual .main-banner li:nth-child(2) {
+    background-image: url(../images/vis2.jpg);
+  }
+  #visual .main-banner li:nth-child(3) {
+    background-image: url(../images/vis3.jpg);
+  } */
+
+#visual .btn-wrap {
+}
+#visual .btn-wrap .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+#visual .btn-wrap .btn i {
+    font-size: 30px;
+    color: #fff;
+}
+#visual .btn-wrap .prev {
+    left: 50px;
+}
+#visual .btn-wrap .next {
+    right: 50px;
+}
+
+#visual .paging {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#visual .paging li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+#visual .paging li:last-child {
+    margin-right: 10px;
+}
+#visual .paging li.on {
+    background: #fff;
+}
+#visual .play {
+    position: absolute;
+    left: 995px;
+    bottom: -1px;
+    font-size: 47px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 페이지명 */
+.main {
+}
+.main .con-box {
+    width: 100%;
+}
+.main .con-box .inner {
+    padding: 110px 0;
+}
+.main .con-box h2 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+.main .con-box h2 + p {
+    font-size: 18px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.main .con1 {
+    background: #efefef;
+}
+.main .con1 .inner {
+    padding: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .con1 a {
+    display: flex;
+}
+.main .con1 a dl {
+    display: flex;
+}
+
+.main .con2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url(../images/mainCon1_bg.jpg);
+}
+.main .con2 h2 {
+    color: #fff;
+}
+.main .con2 h2 + p {
+    color: #fff;
+}
+.main .con2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con2 ul li {
+    width: 570px;
+    outline: 3px solid transparent;
+    outline-offset: -3px;
+    transition: outline 0.4s ease-in-out;
+}
+.main .con2 ul li:hover {
+    outline-color: #fff;
+}
+.main .con2 ul li a {
+}
+.main .con2 ul li a img {
+    width: 100%;
+}
+.main .con2 ul li a strong {
+    display: block;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main .con3 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/mainCon2_bg.jpg);
+}
+.main .con3 .inner {
+}
+.main .con3 h2 {
+}
+.main .con3 h2 + p {
+}
+
+.main .con3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con3 ul li {
+    width: 375px;
+    display: flex;
+}
+.main .con3 ul li:hover {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+}
+.main .con3 ul li:hover a strong {
+    background: #13875e;
+    color: #fff;
+}
+
+.main .con3 ul li a {
+}
+.main .con3 ul li a img {
+    width: 100%;
+}
+.main .con3 ul li a strong {
+    display: block;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    background: #fff;
+}
+
+.main .con4 {
+}
+.main .con4 .news-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con4 .box {
+    width: 575px;
+    box-sizing: border-box;
+}
+.main .con4 .left {
+    border: 1px solid #dcdcdc;
+    padding: 35px 40px;
+    position: relative;
+}
+.main .con4 .left h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.main .con4 .left a {
+    display: flex;
+    flex-direction: column;
+}
+.main .con4 .left a strong {
+    font-size: 20px;
+    margin-bottom: 70px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main .con4 .left a span::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #dcdcdc;
+    margin: 25px 0;
+}
+/* .main .con4 .left h3 + a {} */
+
+.main .con4 .left ul {
+}
+.main .con4 .left ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con4 .left ul li a {
+    display: block;
+    font-size: 18px;
+    width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .con4 .left ul span {
+}
+.main .con4 .left > a {
+}
+
+.main .con4 .left p.more {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    display: flex;
+}
+
+.main .con4 .left p.more::after {
+    content: '+';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.main .con4 .right {
+}
+.main .con4 .right ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con4 .right ul li {
+    width: 275px;
+    height: 190px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+.main .con4 .right ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-size: border-box;
+}
+
+.main .con4 .right ul li:nth-child(1) a {
+    background-image: url(../images/mainCon3_util1_img1.png);
+}
+.main .con4 .right ul li:nth-child(2) a {
+    background-image: url(../images/mainCon3_util1_img2.png);
+}
+
+.main .con4 .right ul li a span {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+
+.main .con4 .right div {
+    width: 100%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/mainCon3_banner.jpg);
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.main .con4 .right div p {
+    display: block;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.main .con4 .right div p:first-child {
+    width: 280px;
+    display: inline-block;
+    padding-top: 40px;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+.main .con4 .right div p.more {
+}
+.main .con4 .right div p.more a {
+    color: #fff;
+    display: block;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main .con4 .right div p.more a i {
+    margin-left: 10px;
+}
+
+/* 서브페이지 */
+.page {
+}
+.page .con-body {
+}
+.page .con-body .con-box {
+    width: 100%;
+}
+.page .con-body .con-box .inner {
+    padding: 100px 0;
+}
+
+/* sub1 */
+.sub1 {
+}
+.sub1 .con1 {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/content/sub1/introTop_bg2.jpg);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sub1 .con1 article {
+    background: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    height: 470px;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    text-align: center;
+
+    /* position: absolute;
+      left: 50%; bottom: 0;
+      transform: translateX(-50%); */
+}
+.sub1 .con1 article h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sub1 .con1 article p:first-of-type {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    margin-bottom: 40px;
+}
+.sub1 .con1 article p {
+    font-size: 16px;
+    word-break: keep-all;
+}
+
+.sub1 .con2 {
+    width: 100%;
+}
+.sub1 .con2 article {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.sub1 .con2 article:first-child {
+    margin-bottom: 65px;
+}
+
+.sub1 .con2 article > p {
+    width: 1070px;
+    height: 330px;
+}
+.sub1 .con2 article:first-child > p {
+    margin-left: auto;
+}
+.sub1 .con2 article:last-child > p {
+    margin-right: auto;
+}
+
+.sub1 .con2 article div {
+    width: 495px;
+    height: 300px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 55px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.sub1 .con2 article div.left {
+    left: 0;
+}
+.sub1 .con2 article div.right {
+    right: 0;
+}
+
+.sub1 .con2 article div h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.sub1 .con2 article div h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub1 .con2 article div p {
+    font-size: 16px;
+}
+
+.sub1 .con3 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/content/sub1/introCon2_bg.jpg);
+    position: relative;
+}
+.sub1 .con3 h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.sub1 .con3 h3::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+.sub1 .con3 h3 span {
+    font-weight: 700;
+    display: block;
+}
+
+.sub1 .con3 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sub1 .con3 ul li {
+    width: 275px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.sub1 .con3 ul li img {
+}
+.sub1 .con3 ul li p {
+    margin-top: 15px;
+}

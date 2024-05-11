@@ -1,0 +1,40 @@
+.main {
+    .con4 {
+        .news-wrap {
+            .right {
+                ul {
+                    li {
+                        width: 275px;
+                        height: 190px;
+                        border: 1px solid #dcdcdc;
+                        position: relative;
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            background-repeat: no-repeat;
+                            background-position: 50% 35%;
+                            background-size: border-box;
+                            span {
+                                position: absolute;
+                                left: 50%;
+                                bottom: 40px;
+                                transform: translateX(-50%);
+                            }
+                        }
+                        &:nth-child(1) {
+                            a {
+                                background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon3_util1_img1.png);
+                            }
+                        }
+                        &:nth-child(2) {
+                            a {
+                                background-image: url(https://adventure.lotteworld.com/common_mus/images/icon/mainCon3_util1_img2.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

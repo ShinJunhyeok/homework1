@@ -1,0 +1,12 @@
+#visual {
+    .main-banner {
+        li {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            &:nth-child(1) {
+                left: 0;
+            }
+        }
+    }
+}

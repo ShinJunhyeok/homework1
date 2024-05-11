@@ -1,0 +1,20 @@
+.main {
+    .con-box {
+        width: 100%;
+        .inner {
+            padding: 110px 0;
+            h2 {
+                font-size: 40px;
+                line-height: 1;
+                margin-bottom: 25px;
+                text-align: center;
+                font-weight: 400;
+            }
+            h2 + p {
+                font-size: 18px;
+                margin-bottom: 55px;
+                text-align: center;
+            }
+        }
+    }
+}
