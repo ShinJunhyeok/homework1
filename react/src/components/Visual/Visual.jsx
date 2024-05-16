@@ -1,6 +1,6 @@
 import './Visual.scss';
 import VisualBanner from './VisualBanner';
-import { banners } from '../assets/api/data';
+import { banners } from '../../assets/api/data';
 
 const Visual = () => {
     return (

@@ -1,7 +1,7 @@
 import './MainCon4.scss';
 import MainCon4News from './MainCon4News';
 import MainCon4Util from './MainCon4Util';
-import { news, util } from '../assets/api/data';
+import { news, util } from '../../assets/api/data';
 
 const MainCon4 = () => {
     return (

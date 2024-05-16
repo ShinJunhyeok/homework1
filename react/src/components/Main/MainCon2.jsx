@@ -1,6 +1,6 @@
 import './MainCon2.scss';
 import MainCon2List from './MainCon2List';
-import { con2 } from '../assets/api/data';
+import { con2 } from '../../assets/api/data';
 
 const MainCon2 = () => {
     return (
